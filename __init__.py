@@ -7,7 +7,7 @@ from pydicom.data import get_testdata_files #need this to call the image from th
 
 
 filename =("C:/Users/kiran/workspace/image-000001.dcm") #need to discribe the pathway to the document 
-# future going over to find the any dicom image how to make data loader 
+# future need to learn how to load up multiple data points  
 
 dc = pydicom.dcmread(filename) #this is read the document information 
 
